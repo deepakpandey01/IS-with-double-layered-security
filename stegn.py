@@ -407,8 +407,8 @@ def retrieve():
         currRow += 1
         print('Edge', currRow, 'retrieved')
     print("Retrieved bits:", retrievedBits, "bits")
-print("CSE1011 Cryptography Fundamentals Project")print("Title: Image Steganography Using an Edge Based Embedding Technique")
-print("Members:\n19BCI0001\n19BCI0002\n19BCI0003\n19BCI0036\n19BCE0425")
+print("CSE1011 Cryptography Fundamentals Project")
+print("Title: Image Steganography Using an Edge Based Embedding Technique")
 ipPath = input("\nEnter the name of file containing input text: ")
 imPath = input("Enter the name of file containing the image: ")
 img = cv2.imread(imPath, 1)
